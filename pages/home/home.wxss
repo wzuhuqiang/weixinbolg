@@ -1,1 +1,17 @@
 /* pages/home/home.wxss */
+.mobile-title {
+    text-align: center;
+    font-size: 16px;
+    line-height: 50px;
+    height: 100%;
+}
+.home-main{
+ margin: 50px 0;
+ flex-direction:column;
+ width: 100%；
+}
+.home-main-list{
+  margin: 50px auto;
+  flex-direction:row;
+  width: 100%；
+}

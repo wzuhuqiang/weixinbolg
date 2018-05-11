@@ -15,6 +15,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  goHome:function(){
+    wx.navigateTo({
+      url: '../home/home'
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

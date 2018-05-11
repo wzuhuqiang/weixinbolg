@@ -1,2 +1,14 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<view class='container'>
+  <view id="header">
+    <view class="mobile-title">前端技术开发</view>
+  </view>
+  <view class='home-main'>
+    <view class='home-main-list'>
+      <view>
+        <image src='http://www.wzuhuqiang.cn/wp-content/cache/Beginning/thumbnail/852ee8e980f6ad9c2b23694bc292ea07-170-120.png'></image>
+      </view>
+    </view>
+
+  </view>
+</view>
