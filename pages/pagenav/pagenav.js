@@ -1,20 +1,26 @@
-// pages/home/home.js
+// pages/pagenav/pagenav.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    scrollTop: 100
+  
   },
-/**
- * 
- */
-goArticle:function(){
-  wx.navigateTo({
-    url: '../article/article',
-  })
-},
+  /**
+   * 去home
+   */
+  goHome: function(){
+    wx.navigateTo({
+      url: '../home/home',
+    })
+  },
+  /**
+   * 去log
+   */
+  goLogs:function(){
+    wx.navigateTo({url:"../logs/logs"})
+  },
   /**
    * 生命周期函数--监听页面加载
    */

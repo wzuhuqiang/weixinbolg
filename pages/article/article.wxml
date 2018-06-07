@@ -1,0 +1,38 @@
+<!--pages/article/article.wxml-->
+<view class='wrap'>
+<view class='article-title'>
+前端基础总结
+</view>
+<view class='article-time'>
+2018年8月8日
+</view>
+<view class='article-content'>
+1.Doctype作用? 严格模式与混杂模式-如何触发这两种模式，区分它们有何意义?
+DTD文档模型，声明位于文档中的最前面，处于标签之前。告知浏览器的解析器，用什么文档类规范来解析这个文档。严格模式的排版和JS运作模式是以该浏览器支持的最高标准运行。在混杂模式中，页面以宽松的向后兼容的方式显示。模拟老式浏览器的行为以防止站点无法工作。DOCTYPE不存在或格式不正确会导致文档以混杂模式呈现。
+2.行内元素有哪些？块级元素有哪些？ 空(void)元素有那些？
+CSS规范规定，每个元素都有display属性，确定该元素的类型，每个元素都有默认的display值，比如div默认display属性值为“block”，成为“块级”元素；span默认display属性值为“inline”，是“行内”元素。
+3.CSS的盒子模型？
+
+盒模型： 内容(content)、填充(padding)、边界(margin)、 边框(border).
+
+标准盒子模型
+怪异盒子模型
+4.link 和@import 的区别是?
+
+页面被加载的时，link会同时被加载，而@import引用的CSS会等到页面被加载完再加载;
+import只在IE5以上才能识别，而link是XHTML标签，无兼容问题;
+link方式的样式的权重高于@import的权重.
+5.CSS 选择符有哪些？
+
+6.CSS哪些属性可以继承？
+
+可继承： font-size font-family color, UL LI DL DD DT;
+不可继承 ：border padding margin width height ;
+7.CSS优先级算法如何计算？
+
+优先级就近原则，样式定义最近者为准;
+载入样式以最后载入的定位为准;
+优先级为:!important > id > class > tag
+important 比 内联优先级高
+</view>
+</view>

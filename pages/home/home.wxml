@@ -1,14 +1,56 @@
 <!--pages/home/home.wxml-->
 <view class='container'>
-  <view id="header">
+  <view id="header" style='display:none;'>
     <view class="mobile-title">前端技术开发</view>
   </view>
   <view class='home-main'>
-    <view class='home-main-list'>
-      <view>
-        <image src='http://www.wzuhuqiang.cn/wp-content/cache/Beginning/thumbnail/852ee8e980f6ad9c2b23694bc292ea07-170-120.png'></image>
+    <view class='home-main-list' bindtap='goArticle'>
+      <view class='main-list-img-view'>
+        <image class='main-list-img' src='http://www.wzuhuqiang.cn/wp-content/cache/Beginning/thumbnail/852ee8e980f6ad9c2b23694bc292ea07-170-120.png'></image>
+      </view>
+      <view class='list-main'>
+        <view class='list-title'>前端基础总结</view>
+        <view class='list-content'>
+          Doctype作用? 严格模式与混杂模式-如何触发这两种模式，区分它们有何意义?
+        </view>
+        <view class='list-time'>2018年12月12日</view>
       </view>
     </view>
-
+    <view class='home-main-list' bindtap='goArticle'>
+      <view class='main-list-img-view'>
+        <image class='main-list-img' src='http://www.wzuhuqiang.cn/wp-content/cache/Beginning/thumbnail/852ee8e980f6ad9c2b23694bc292ea07-170-120.png'></image>
+      </view>
+      <view class='list-main'>
+        <view class='list-title'>前端基础总结</view>
+        <view class='list-content'>
+          Doctype作用? 严格模式与混杂模式-如何触发这两种模式，区分它们有何意义?
+        </view>
+        <view class='list-time'>2018年12月12日</view>
+      </view>
+    </view>
+    <view class='home-main-list' bindtap='goArticle'>
+      <view class='main-list-img-view'>
+        <image class='main-list-img' src='http://www.wzuhuqiang.cn/wp-content/cache/Beginning/thumbnail/852ee8e980f6ad9c2b23694bc292ea07-170-120.png'></image>
+      </view>
+      <view class='list-main'>
+        <view class='list-title'>前端基础总结</view>
+        <view class='list-content'>
+          Doctype作用? 严格模式与混杂模式-如何触发这两种模式，区分它们有何意义?
+        </view>
+        <view class='list-time'>2018年12月12日</view>
+      </view>
+    </view>
+    <view class='home-main-list' bindtap='goArticle'>
+      <view class='main-list-img-view'>
+        <image class='main-list-img' src='http://www.wzuhuqiang.cn/wp-content/cache/Beginning/thumbnail/852ee8e980f6ad9c2b23694bc292ea07-170-120.png'></image>
+      </view>
+      <view class='list-main'>
+        <view class='list-title'>前端基础总结</view>
+        <view class='list-content'>
+          Doctype作用? 严格模式与混杂模式-如何触发这两种模式，区分它们有何意义?
+        </view>
+        <view class='list-time'>2018年12月12日</view>
+      </view>
+    </view>
   </view>
 </view>

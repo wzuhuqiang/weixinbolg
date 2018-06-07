@@ -1,17 +1,58 @@
 /* pages/home/home.wxss */
+
 .mobile-title {
-    text-align: center;
-    font-size: 16px;
-    line-height: 50px;
-    height: 100%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
+  height: 100%;
 }
-.home-main{
- margin: 50px 0;
- flex-direction:column;
- width: 100%；
+
+.home-main {
+  width: 100%;
 }
-.home-main-list{
-  margin: 50px auto;
-  flex-direction:row;
-  width: 100%；
+
+.home-main-list {
+  display: flex;
+  box-sizing: border-box;
+  flex-flow: row;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #e6e6eb;
+}
+
+.main-list-img {
+  display: flex;
+  width: 65px;
+  height: 65px;
+}
+
+.list-main {
+  margin-left: 10px;
+  margin-right: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-title {
+  color: #333;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.list-content {
+  line-height: 22px;
+  height: 22px;
+  color: #999;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.list-time {
+  line-height: 22px;
+  height: 22px;
+  color: #999;
+  font-size: 12px;
+  overflow: hidden;
 }

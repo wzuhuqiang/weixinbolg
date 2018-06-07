@@ -10,7 +10,7 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
-  <view class='go-home' bindtap='goHome'>
+  <view class='go-home' bindtap='goHome' style='display:none;'>
     前往前端开发博客
   </view>
 </view>

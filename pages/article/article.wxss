@@ -1,0 +1,19 @@
+/* pages/article/article.wxss */
+
+.wrap {
+  margin: 10px;
+}
+
+.article-title {
+  font-size: 20px;
+}
+
+.article-time {
+  margin: 20px auto;
+  font-size: 14px;
+  color: #999;
+}
+
+.article-content {
+  font-size: 18px;
+}
